@@ -51,15 +51,15 @@ slam_toolbox:
     # =========================
     # Création des noeuds SLAM
     # =========================
-    minimum_time_interval: 0.10
+    minimum_time_interval: 0.12
 
     # Ajoute une nouvelle pose après environ 10 cm
-    minimum_travel_distance: 0.10
+    minimum_travel_distance: 0.0
 
     # Ajoute une nouvelle pose après environ 5.7 degrés
-    minimum_travel_heading: 0.10
+    minimum_travel_heading: 0.0
 
-    check_min_dist_and_heading_precisely: true
+    check_min_dist_and_heading_precisely: false
 
     # =========================
     # Scan matching
